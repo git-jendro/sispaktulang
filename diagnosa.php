@@ -5,7 +5,7 @@
     <?php
     include "design/head.php";
     ?>
-    <title>Medilab Free Bootstrap HTML5 Template</title>
+    <title>Diagnosa | Sistem Pakar Penyakit Diagnosa Penyakit Tulang Belakang</title>
 </head>
 
 <body id="myPage" data-spy="scroll" data-target=".navbar" data-offset="60">
