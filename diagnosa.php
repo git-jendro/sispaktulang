@@ -3,6 +3,7 @@
 
 <head>
     <?php
+    include "koneksi.php";
     include "design/head.php";
     ?>
     <title>Diagnosa | Sistem Pakar Penyakit Diagnosa Penyakit Tulang Belakang</title>
@@ -26,6 +27,18 @@
                                 <div class="col-md-12 col-sm-12">
                                     <div class="service-info">
                                         <h2 class="head-title lg-line">Diagnosa</h2>
+                                    </div>
+                                    <div>
+                                    <?php
+                                    if(isset($_GET['pesan'])){
+                                        $pesan = $_GET['pesan'];
+                                        if($pesan == "kosong"){
+                                            echo "Mohon isi kolom Gejala !<br>";
+                                        }
+                                    }
+                                    // echo "Test";
+                                    ?>
+
                                     </div>
                                     <p>
                                         <form method="get" action="hasil.php">
