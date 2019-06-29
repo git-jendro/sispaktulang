@@ -6,7 +6,9 @@
 		}else if($pesan == "update"){
 			echo "Data berhasil di update.";
 		}else if($pesan == "hapus"){
-		echo "Data berhasil di hapus.";
+			echo "Data berhasil di hapus.";
+		}elseif ($pesan == "kosong") {
+			echo "Silahkan lengkapi data !";
 		}
     }
 ?>

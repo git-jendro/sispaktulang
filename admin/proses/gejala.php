@@ -11,18 +11,6 @@ foreach ($data as $row) {
                 " . $row['keterangan'] . "
             </td>
             <td>
-                " . $row['kondisi_ya'] . "
-            </td>
-            <td>
-                " . $row['kondisi_tidak'] . "
-            </td>
-            <td>
-                " . $row['kode_penyakitY'] . "
-            </td>
-            <td>
-                " . $row['kode_penyakitN'] . "
-            </td>
-            <td>
                 <a href='editgejala.php?kode=$row[kode]'> Edit </a>
             </td>
             <td>

@@ -36,26 +36,14 @@ if(isset($_POST["submit_login"])){
               ?>
             <table>
                 <tr>
-                    <td width="100px">
-                        <h4>  Kode Gejala
+                    <td width="200px">
+                        <h2>  Kode Gejala
                     </td>
                     <td width="400px">
-                        <h4>  Nama Gejala
-                    </td>
-                    <td width="100px">
-                        <h4>  Kondisi Jika Ya
-                    </td>
-                    <td width="100px">
-                        <h4>  Kondisi Jika Tidak
-                    </td>
-                    <td width="150px">
-                        <h4>  Kode Penyakit Ya
-                    </td>
-                    <td width="150px">
-                        <h4>  Kode Penyakit Tidak
+                        <h2>  Nama Gejala
                     </td>
                     <td colspan="2" width="200px">
-                        <h4>  Action
+                        <h2>  Action
                     </td>
                 </tr>
                 <?php

@@ -36,7 +36,6 @@
                                             echo "Mohon isi kolom Gejala !<br>";
                                         }
                                     }
-                                    // echo "Test";
                                     ?>
 
                                     </div>
