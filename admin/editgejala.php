@@ -40,27 +40,6 @@ include "koneksi.php";
                         <div style="padding-bottom:20px">
                             <input class="form-control" name="keterangan" type="text" value="<?php echo $row['keterangan']; ?>">
                         </div>
-                        <label for="inputdefault">
-                            <h3>Kondisi</h3>
-                        </label>
-                        <br>
-                        <label for="inputdefault">Jika Jawaban Ya</label>
-                        <div>
-                            <input class="form-control" name="kondisi_ya" type="text" value="<?php echo $row['kondisi_ya']; ?>">
-                        </div>
-                        <br>
-                        <label for="inputdefault">Jika Jawaban Tidak</label>
-                        <div>
-                            <input class="form-control" name="kondisi_tidak" type="text" value="<?php echo $row['kondisi_tidak']; ?>">
-                        </div>
-                        <label for="inputdefault">Kode Penyakit Ya</label>
-                        <div>
-                            <input class="form-control" name="kode_penyakitY" type="text" value="<?php echo $row['kode_penyakitY']; ?>">
-                        </div>
-                        <label for="inputdefault">Kode Penyakit Tidak</label>
-                        <div style="padding-bottom:50px">
-                            <input class="form-control" name="kode_penyakitN" type="text" value="<?php echo $row['kode_penyakitN']; ?>">
-                        </div>
                         <div>
                             <center>
                                 <button type="submit" value="simpan">SIMPAN PERUBAHAN</button>

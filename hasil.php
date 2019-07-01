@@ -35,10 +35,20 @@
                             if (mysqli_num_rows($data) > 0) {
                                 $row = mysqli_fetch_assoc($data);
                                 if ($get_gejala == $row['gejala']) {
-                                    echo "<h4>Berdasarkan hasil diagnosa dari gejala yang anda alami<br>";
-                                    echo "kemungkinan anda menderita penyakit <br>";
+                                    echo "Berdasarkan hasil diagnosa dari gejala yang anda alami<br>";
+                                    echo "kemungkinan anda menderita penyakit <br><h3>";
                                     echo $row['penyakit'];
-                                    echo "<br>";
+                                    echo "</h3><h4>";
+                                    $data2 = mysqli_query($koneksi,"SELECT * from penyakit");
+                                    if (mysqli_num_rows($data2)>0){
+                                        $row2 = mysqli_fetch_assoc($data2);
+                                        if ($row['penyakit']==$row2['penyakit']){
+                                            echo $row2['penjelasan'];
+                                            echo "<br>";
+                                            echo $row2['solusi'];
+                                            echo "<br>";
+                                        }
+                                    }
                                 } else {
                                     echo "Mohon maaf untuk sementara gejala yang anda masukan belum dapat diproses oleh sistem kami <br>";
                                     echo "Silahkan hubungi Dokter Spesialis Tulang Belakang atau Terapist Tulang Belakang untuk informasi lebih lanjut mengenai gejala anda <br>";

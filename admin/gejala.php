@@ -39,7 +39,7 @@ if(isset($_POST["submit_login"])){
                     <td width="200px">
                         <h2>  Kode Gejala
                     </td>
-                    <td width="400px">
+                    <td width="600px">
                         <h2>  Nama Gejala
                     </td>
                     <td colspan="2" width="200px">
