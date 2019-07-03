@@ -23,12 +23,12 @@
                     <div class="row">
                         <div class="banner-info">
                             <section class="container">
-                                <div class="col-md-3 col-sm-4 col-xs-12">
+                                <div class="col-md-2 col-sm-3 col-xs-10">
                                     <div class="section-title">
                                         <h2 class="head-title lg-line">Informasi <br>Terkini</h2>
                                     </div>
                                 </div>
-                                <div class="col-md-9 col-sm-8 col-xs-12">
+                                <div class="col-md-10 col-sm-12 col-xs-12">
                                     <div style="visibility: visible;" class="col-sm-9 more-features-box">
                                         <div class="more-features-box-text">
                                             <div class="more-features-box-text-description">

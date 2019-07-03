@@ -8,11 +8,17 @@
     Login Admin | Sistemm Pakar Diagnosa Penyakit Tulang Belakang
   </title>
 </head>
+
 <body class="login-img3-body">
   <div class="container">
     <form class="login-form" action="proses/login.php">
       <div class="login-wrap">
         <p class="login-img"><i class="icon_lock_alt"></i></p>
+        <div>
+          <?php
+          include "loginmessage.php";
+          ?>
+        </div>
         <div class="input-group">
           <span class="input-group-addon"><i class="icon_profile"></i></span>
           <input type="text" class="form-control" name="username" autofocus>

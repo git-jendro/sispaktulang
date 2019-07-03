@@ -19,3 +19,4 @@
   <link href="css/style-responsive.css" rel="stylesheet" />
   <link href="css/xcharts.min.css" rel=" stylesheet">
   <link href="css/jquery-ui-1.10.4.min.css" rel="stylesheet">
+  <script type="text/javascript" src="ckeditor/ckeditor.js"></script>
