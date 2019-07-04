@@ -16,7 +16,7 @@ include "koneksi.php";
 	</script>
 	<!-- cdn tinymce untuk textarea -->
 	<title>
-		Tambah Perawatan | Sistemm Pakar Diagnosa Penyakit Tulang Belakang
+		Tambah Perawatan | Sistem Pakar Diagnosa Penyakit Tulang Belakang
 	</title>
 </head>
 

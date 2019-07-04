@@ -5,7 +5,7 @@
   include "design/head.php";
   ?>
   <title>
-    Sistemm Pakar Diagnosa Penyakit Tulang Belakang
+    Sistem Pakar Diagnosa Penyakit Tulang Belakang
   </title>
 </head>
 

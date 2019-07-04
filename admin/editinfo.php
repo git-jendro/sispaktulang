@@ -7,8 +7,16 @@ include "koneksi.php";
     <?php
     include "design/head.php";
     ?>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/tinymce/5.0.9/tinymce.min.js"></script>
+    <script>
+        tinymce.init({
+            //key:value
+            selector: 'textarea'
+        });
+	</script>
+	<!-- cdn tinymce untuk textarea -->
     <title>
-        Perbarui Info | Sistemm Pakar Diagnosa Penyakit Tulang Belakang
+        Perbarui Info | Sistem Pakar Diagnosa Penyakit Tulang Belakang
     </title>
 </head>
 

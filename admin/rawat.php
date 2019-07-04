@@ -19,7 +19,7 @@ if(isset($_POST["submit_login"])){
     	include "design/head.php";
   	?>
   	<title>
-			Perawatan | Sistemm Pakar Diagnosa Penyakit Tulang Belakang
+			Perawatan | Sistem Pakar Diagnosa Penyakit Tulang Belakang
   	</title>
 	</head>
 	<body>

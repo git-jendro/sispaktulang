@@ -8,7 +8,7 @@ include "koneksi.php";
     include "design/head.php";
     ?>
     <title>
-        Perbarui Data Gejala | Sistemm Pakar Diagnosa Penyakit Tulang Belakang
+        Perbarui Data Gejala | Sistem Pakar Diagnosa Penyakit Tulang Belakang
     </title>
 </head>
 
