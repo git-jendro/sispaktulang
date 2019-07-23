@@ -50,7 +50,7 @@ include "koneksi.php";
                             <h3>Solusi</h3>
                         </label>
                         <div style="padding-bottom:20px">
-                            <input class="form-control" name="solusi" type="text" value="<?php echo $row['solusi']; ?>">
+                        <textarea class="form-control" name="solusi"><?php echo $row['solusi']; ?></textarea>
                         </div>
                         <div>
                             <center>

@@ -1,4 +1,4 @@
-    <header class="header dark-bg">
+<header class="header dark-bg">
       <a href="index.php" class="logo">Dashboard <span class="lite">Admin</span></a>
 
       <div class="top-nav notification-row">
