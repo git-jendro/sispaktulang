@@ -1,9 +1,9 @@
 <?php
 include '../koneksi.php';
 // menyimpan data kedalam variabel
-$id 	= $_GET['id'];
-$judul  = $_GET['judul'];
-$isi 	= $_GET['isi'];
+$id 	= $_POST['id'];
+$judul  = $_POST['judul'];
+$isi 	= $_POST['isi'];
 // query SQL untuk insert data
 $query="UPDATE rawat SET judul='$judul',isi='$isi' where id='$id'";
 mysqli_query($koneksi, $query);

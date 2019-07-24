@@ -27,7 +27,7 @@ include "koneksi.php";
                     $row    = mysqli_fetch_array($info);
                     ?>
                     <h2>Edit Info</h2>
-                    <form method="pogetst" action="proses/editgejala.php" role="form">
+                    <form method="post" action="proses/editgejala.php" role="form">
                         <label for="inputdefault">
                             <h3>Kode</h3>
                         </label>

@@ -35,7 +35,7 @@ include "koneksi.php";
                     $row    = mysqli_fetch_array($info);
                     ?>
                     <h2>Edit Info</h2>
-                    <form method="pogetst" action="proses/editcegah.php" role="form">
+                    <form method="post" action="proses/editcegah.php" role="form">
                         <input type="hidden" value="<?php echo $row['id']; ?>" name="id">
 						<div style="padding-bottom:20px">
 							<input class="form-control" name="judul" type="text" value="<?php echo $row['judul'] ?>">
